@@ -1,9 +1,6 @@
+import tensorflow as tf
 import numpy as np
-from matplotlib import pyplot as plt
 
-x = np.arange(1, 10, 1)
-y = x
-
-plt.plot(y)
-
-
+x = np.ones(3, 3)
+y = x + 1
+z = y * 2
